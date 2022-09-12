@@ -32,7 +32,7 @@ public class Main {
                 for (int i = 2022; i<=2032; i ++) {
                     population = population +birthRate- mortality;
                     System.out.println( " за " + i + " популяция" + population);}
-                    {
+
 
                         var task4 = 4;
                         int salary1 = 15000;
@@ -41,7 +41,7 @@ public class Main {
                             total1 = total1 + total1 /100 *7;
                             total1 = total1 + salary1;
                             {
-                                System.out.println(" за " + i1 + " василий накопит" + total1);
+                                System.out.println(" за " + i1 + " василий накопит" + total1);}
 
 
                                     var task5 = 5;
@@ -51,22 +51,41 @@ public class Main {
                                                 total2 = total2 + total2 / 100 * 7;
                                                 total2 = total2 + salary2;
                                                 if (i2 % 6 == 0) {
-                                                    System.out.println(" за " + i2 + " василий накопит" + total2);
+                                                    System.out.println(" за " + i2 + " василий накопит" + total2);}
+
+
+                                                    var task6 = 6;
+                                                    int salary3 = 15000;
+                                                    int total3 = 0;
+                                                    for (int r = 0; r < 9*12; r++) {
+                                                        total3 = total3 + total3 / 100 * 7;
+                                                        total3 = total3 + salary3;
+                                                        if (r % 6 == 0) {
+                                                            System.out.println(" за " + r + " василий накопит" + total3);}
+
+
+                                                    var task7 = 7;
+                                                    int friday =2;
+                                                    for (int n =7; n >7; n++) {
+                                                        if (n % 7 == 2) {
+                                                            System.out.println(friday);
+                                                        }
+                                                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    }
                                                 }
-
-
-                                                var task6 = 6;
-                                                int salary3 = 15000;
-                                                int total3 = 0;
-                                                for (int i3 = 0; i3 < 9*12; i3++) {
-                                                    total3 = total3 + total3 / 100 * 7;
-                                                    total3 = total3 + salary3;
-                                                    if (i3 % 6 == 0) {
-                                                        System.out.println(" за " + i3 + " василий накопит" + total3);
-                                                    }
-
-                                                    }
-                                }
 
 
                                     }
@@ -75,6 +94,5 @@ public class Main {
             }
 
 
-        }
-    }
+
 }
