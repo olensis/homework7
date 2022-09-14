@@ -77,23 +77,24 @@ public class Main {
             }
 
 
-                var task8 = 8;
-                int year = 2022;
-                int nextYear = year + 100;
-                int lastYear = year -  200;
-                for (int m = 0; m<=nextYear; m++) {
-                    if (m % 79 == 0 && m >= lastYear) {
+            var task8 = 8;
+            int year = 2022;
+            int nextYear = year + 100;
+            int lastYear = year - 200;
+            for (int m = 0; m <= nextYear; m++) {
+                if (m % 79 == 0 && m >= lastYear) {
 
-                        System.out.println(m);}
+                    System.out.println(m);
                 }
+            }
 
             var task9 = 9;
             int number1 = 2;
-            for (int s =1; s<=20; s++) {
-                if (s % 2 == 0) {
-                    System.out.println(s);
-                }
+            for (int s = 1; s <= 10; s++) {
+                System.out.println("2*" + s + "=" + 2*s);
             }
+
+
             }
 
     }
