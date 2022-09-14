@@ -54,56 +54,47 @@ public class Main {
                 if (i2 % 6 == 0) {
                     System.out.println(" за " + i2 + " василий накопит" + total2);
                 }
+            }
 
 
-                var task6 = 6;
-                int salary3 = 15000;
-                int total3 = 0;
-                for (int r = 0; r < 9 * 12; r++) {
-                    total3 = total3 + total3 / 100 * 7;
-                    total3 = total3 + salary3;
-                    if (r % 6 == 0) {
-                        System.out.println(" за " + r + " василий накопит " + total3);
-                    }
-                }
-
-                var task7 = 7;
-                int friday = 2;
-                for (int n = 7; n <= 30; n++) {
-                    if (n % 7 == 2) {
-                        System.out.println(n);
-                    }
-
-                    var task8 = 8;
-                    int year = 2022;
-                    int nextYear = year + 100;
-                    int lastYear = year -  200;
-                    for (int m = 0; m<=nextYear; m++) {
-                        if (m%79 ==0 && m>=lastYear){
-
-                        System.out.println(m);
-                        }
-
-
-                        var task9 = 9;
-                        int number1 = 2;
-                        for (int s =1; s<=20; s++){
-                            if (s%2 == 0) {
-                                System.out.println(s);
-                            }
-                            }
-
-
-
-
-
-                    }
-
-
-
-                    }
+            var task6 = 6;
+            int salary3 = 15000;
+            int total3 = 0;
+            for (int r = 0; r < 9 * 12; r++) {
+                total3 = total3 + total3 / 100 * 7;
+                total3 = total3 + salary3;
+                if (r % 6 == 0) {
+                    System.out.println(" за " + r + " василий накопит " + total3);
                 }
             }
-        }
 
+            var task7 = 7;
+            int friday = 2;
+            for (int n = 7; n <= 30; n++) {
+                if (n % 7 == 2) {
+                    System.out.println(n);
+                }
+            }
+
+
+                var task8 = 8;
+                int year = 2022;
+                int nextYear = year + 100;
+                int lastYear = year -  200;
+                for (int m = 0; m<=nextYear; m++) {
+                    if (m % 79 == 0 && m >= lastYear) {
+
+                        System.out.println(m);}
+                }
+
+            var task9 = 9;
+            int number1 = 2;
+            for (int s =1; s<=20; s++) {
+                if (s % 2 == 0) {
+                    System.out.println(s);
+                }
+            }
+            }
+
+    }
 }
